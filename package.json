@@ -26,5 +26,4 @@
     "vite": "^7.2.4"
   }
 }
-"deploy": "gh-pages -d dist"
 
