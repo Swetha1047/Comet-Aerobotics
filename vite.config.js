@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
+Timport { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/comet-aerobotics/',
   base: '/Comet-Aerobotics/', // MUST match repo name
 })
